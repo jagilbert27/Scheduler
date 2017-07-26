@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="employeeScheduleFactorsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>269, 17</value>
+  </metadata>
+  <metadata name="scheduleDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
+  </metadata>
+  <data name="gridEX1_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Key&gt;EmployeeScheduleFactors&lt;/Key&gt;&lt;Caption&gt;EmployeeScheduleFactors&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="EmployeeID"&gt;&lt;Caption&gt;Employee ID&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;EmployeeID&lt;/DataMember&gt;&lt;Key&gt;EmployeeID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="PatternID"&gt;&lt;Caption&gt;Pattern ID&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;PatternID&lt;/DataMember&gt;&lt;Key&gt;PatternID&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;231&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="WorkWeeksInPeriod"&gt;&lt;Caption&gt;Work Weeks In Period&lt;/Caption&gt;&lt;DataTypeCode&gt;Int16&lt;/DataTypeCode&gt;&lt;DataMember&gt;WorkWeeksInPeriod&lt;/DataMember&gt;&lt;Key&gt;WorkWeeksInPeriod&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column2&gt;&lt;Column3 ID="WeeksInPeriod"&gt;&lt;Caption&gt;Weeks In Period&lt;/Caption&gt;&lt;DataTypeCode&gt;Int16&lt;/DataTypeCode&gt;&lt;DataMember&gt;WeeksInPeriod&lt;/DataMember&gt;&lt;Key&gt;WeeksInPeriod&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column3&gt;&lt;Column4 ID="EffectiveDate"&gt;&lt;Caption&gt;Effective Date&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;EffectiveDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;EffectiveDate&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;/Column4&gt;&lt;Column5 ID="Deleted"&gt;&lt;Caption&gt;Deleted&lt;/Caption&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;Deleted&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;Deleted&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;DefaultValue&gt;False&lt;/DefaultValue&gt;&lt;DefaultValueType&gt;System.Boolean&lt;/DefaultValueType&gt;&lt;/Column5&gt;&lt;Column6 ID="LastModifiedBy"&gt;&lt;Caption&gt;Last Modified By&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LastModifiedBy&lt;/DataMember&gt;&lt;Key&gt;LastModifiedBy&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;/Column6&gt;&lt;Column7 ID="LastModifiedDate"&gt;&lt;Caption&gt;Last Modified Date&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;LastModifiedDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;LastModifiedDate&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;/Column7&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;4&lt;/ColIndex&gt;&lt;SortOrder&gt;Descending&lt;/SortOrder&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>541, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAk
+        QwAAAk1TRnQBSQFMAgEBCQEAATABAAEwAQABPQEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAH0
+        AwABMAMAAQEBAAEgBgABtxUAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A4EB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DgQH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wOBAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A4EB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DgQH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wOBAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        A4EB/wMAAf8DAAH/AwAB/wMAAf//AP8A4QAB/wEAAfIC/wEAAfIC/wEAAfIC/wEAAfIC/wMAEf8DABH/
+        AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAB//8A/wDhAAH/AQAB8gL/AQAB8gL/
+        AQAB8gL/AQAB8gL/AwAR/wMABf8DgQn/AwAR/wOBEf8DAAn/A4EF/wMAEf8DAAH/A4EN/wMADf8DgQH/
+        AwAR/wMABf8DgQn/AwAR/wOBAf//AP8A4QAB/wEAAfIC/wEAAfIC/wEAAfIC/wEAAfIC/wMAEf8DABH/
+        AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAB//8A/wDhAAH/AQAB8gL/AQAB8gL/
+        AQAB8gL/AQAB8gL/AwAJ/wOBBf8DABH/AwAB/wOBDf8DAA3/A4EB/wMAEf8DAAX/A4EJ/wMAEf8DgRH/
+        AwAJ/wOBBf8DABH/AwAB/wOBDf8DAAH//wD/AOEAAf8BAAHyAv8BAAHyAv8BAAHyAv8BAAHyAv8DABH/
+        AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAAf//AP8A4QAB/wEAAfIC/wEA
+        AfIC/wEAAfIC/wEAAfIC/wMAEf8DAAX/A4EJ/wMAEf8DgRH/AwAJ/wOBBf8DABH/AwAB/wOBDf8DAA3/
+        A4EB/wMAEf8DAAX/A4EJ/wMAEf8DgQH//wD/AOEAAf8BAAHyAv8BAAHyAv8BAAHyAv8BAAHyAv8DABH/
+        AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAAf//AP8A4QAB/wEAAfIC/wEA
+        AfIC/wEAAfIC/wEAAfIC/wMACf8DgQX/AwAR/wMAAf8DgQ3/AwAN/wOBAf8DABH/AwAF/wOBCf8DABH/
+        A4ER/wMACf8DgQX/AwAR/wMAAf8DgQ3/AwAB//8A/wDhAAH/AQAB8gL/AQAB8gL/AQAB8gL/AQAB8gL/
+        AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAEf8DAAH//wD/AOEAAf8BAAHy
+        Av8BAAHyAv8BAAHyAv8BAAHyAv8DABH/AwAF/wOBCf8DABH/A4ER/wMACf8DgQX/AwAR/wMAAf8DgQ3/
+        AwAN/wOBAf8DABH/AwAF/wOBCf8DABH/A4EB//8A/wDhAAH/AQAB8gL/AQAB8gL/AQAB8gL/AQAB8gL/
+        AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAEf8DAAH//wD/AOEAAf8BAAHy
+        Av8BAAHyAv8BAAHyAv8BAAHyAv8DAAn/A4EF/wMAEf8DAAH/A4EN/wMADf8DgQH/AwAR/wMABf8DgQn/
+        AwAR/wOBEf8DAAn/A4EF/wMAEf8DAAH/A4EN/wMAAf//AP8A4QAB/wEAAfIC/wEAAfIC/wEAAfIC/wEA
+        AfIC/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAR/wMAEf8DABH/AwAB//8A/wDhAAH/
+        AQAB8gL/AQAB8gL/AQAB8gL/AQAB8gL/AwAR/wMABf8DgQn/AwAR/wOBEf8DAAn/A4EF/wMAEf8DAAH/
+        A4EN/wMADf8DgQH/AwAR/wMABf8DgQn/AwAR/wOBAf//AP8A4QAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB//8A/wDhAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwAJ/wOBHf8DgQ3/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AwAJ/wOBHf8DgQ3/AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMACf8DgR3/A4EN/wMACf8DgR3/A4EN/wMAAf8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAn/
+        A4Ed/wOBDf8DAAH/AwA5/wMAOf8DADn/AwA5/wMAAf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwA5/wMAAf8DAAH/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/AwA5/wMAAf8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/
+        AwAB/wMAOf8DADn/AwA5/wMAOf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAZ/wOBHf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DABn/A4Ed/wMAAf8DAAH/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DABn/A4Ed/wMAGf8DgR3/
+        AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wMAGf8DgR3/AwAB/wMAOf8DADn/AwA5/wMAOf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwA5/wMAAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAOf8DAAH/AwAB/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwA5/wMAOf8DAAH/
+        AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwA5/wMAAf8DADn/AwA5/wMAOf8DADn/AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMACf8DgR3/A4EN/wMAAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMACf8DgR3/A4EN/wMAAf8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAn/
+        A4Ed/wOBDf8DAAn/A4Ed/wOBDf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAJ/wOBHf8DgQ3/AwAB/wMAOf8DADn/AwA5/wMAOf8DAAH/
+        AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwA5/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wMAOf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AwA5/wMAOf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwA5/wMAAf8DADn/AwA5/wMAOf8DADn/AwAB/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAGf8DgR3/
+        AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwAZ/wOBHf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AwAZ/wOBHf8DABn/A4Ed/wMAAf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DABn/A4Ed/wMAAf8DADn/AwA5/wMAOf8DADn/
+        AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wMAOf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DADn/AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wMAOf8DADn/AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAOf8DAAH/AwA5/wMAOf8DADn/AwA5/wMAAf8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAn/
+        A4Ed/wOBDf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DAAn/A4Ed/wOBDf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAJ/wOBHf8DgQ3/AwAJ/wOBHf8DgQ3/AwAB/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMACf8DgR3/
+        A4EN/wMAAf8DADn/AwA5/wMAOf8DADn/AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAOf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAOf8DADn/AwAB/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAOf8DAAH/
+        AwA5/wMAOf8DADn/AwA5/wMAAf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8DABn/A4Ed/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAGf8DgR3/AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAGf8DgR3/AwAZ/wOBHf8DAAH/
+        AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwAZ/wOBHf8DAAH/AwA5/wMAOf8DADn/AwA5/wMAAf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwA5/wMAAf8DAAH/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/AwA5/wMAAf8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/
+        AwAB/wMAOf8DADn/AwA5/wMAOf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAJ/wOBHf8DgQ3/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAJ/wOBHf8DgQ3/AwAB/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMACf8DgR3/
+        A4EN/wMACf8DgR3/A4EN/wMAAf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAn/A4Ed/wOBDf8DAAH/AwA5/wMAOf8DADn/AwA5/wMAAf8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/
+        AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwA5/wMAAf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DADn/AwA5/wMAAf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/AwAB/wMAOf8DADn/AwA5/wMAOf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/PwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/z8AAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAn/A4Ed/wOBDf8DAAn/A4Ed/wOBDf8DAAn/A4Ed/wOBDf8DAAn/
+        A4Ed/wOBDf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AwAJ/wOBHf8DgQ3/AwAJ/wOBHf8DgQ3/AwAB/z8AAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMACf8DgR3/A4EN/wMAAf8/AAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAn/
+        A4Ed/wOBDf8DAAn/A4Ed/wOBDf8DAAn/A4Ed/wOBDf8DAAH/AwA5/wMAOf8DADn/AwA5/wMAAf8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/
+        AwA5/wMAAf8/AAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DADn/AwAB/z8AAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wMAOf8DADn/AwA5/wMAAf8DABn/A4Ed/wMAGf8DgR3/AwAZ/wOBHf8DABn/
+        A4Ed/wMAAf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DABn/A4Ed/wMAGf8DgR3/AwAB/z8AAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAGf8DgR3/AwAB/z8AAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAGf8DgR3/AwAZ/wOBHf8DABn/
+        A4Ed/wMAAf8DADn/AwA5/wMAOf8DADn/AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAOf8DADn/AwAB/z8AAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAOf8DAAH/PwAB/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwA5/wMAOf8DADn/
+        AwAB/wMACf8DgR3/A4EN/wMACf8DgR3/A4EN/wMACf8DgR3/A4EN/wMACf8DgR3/A4EN/wMAAf8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAn/
+        A4Ed/wOBDf8DAAn/A4Ed/wOBDf8DAAH/PwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAJ/wOBHf8DgQ3/AwAB/z8AAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMACf8DgR3/A4EN/wMACf8DgR3/
+        A4EN/wMACf8DgR3/A4EN/wMAAf8DADn/AwA5/wMAOf8DADn/AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAOf8DADn/AwAB/z8AAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAOf8DAAH/
+        PwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AwA5/wMAOf8DADn/AwAB/wMAGf8DgR3/AwAZ/wOBHf8DABn/A4Ed/wMAGf8DgR3/AwAB/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAGf8DgR3/
+        AwAZ/wOBHf8DAAH/PwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AwAZ/wOBHf8DAAH/PwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAZ/wOBHf8DABn/A4Ed/wMAGf8DgR3/AwAB/wMAOf8DADn/
+        AwA5/wMAOf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AwA5/wMAOf8DAAH/PwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwA5/wMAAf8/AAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/AwA5/wMAOf8DAAH/AwAJ/wOBHf8DgQ3/
+        AwAJ/wOBHf8DgQ3/AwAJ/wOBHf8DgQ3/AwAJ/wOBHf8DgQ3/AwAB/wMAAf8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMACf8DgR3/A4EN/wMACf8DgR3/
+        A4EN/wMAAf8/AAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DAAn/A4Ed/wOBDf8DAAH/PwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAJ/wOBHf8DgQ3/AwAJ/wOBHf8DgQ3/AwAJ/wOBHf8DgQ3/
+        AwAB/wMAOf8DADn/AwA5/wMAOf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwA5/wMAOf8DAAH/PwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwA5/wMAAf8/AAH/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/AwA5/wMAOf8DAAH/
+        AwAZ/wOBHf8DABn/A4Ed/wMAGf8DgR3/AwAZ/wOBHf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAZ/wOBHf8DABn/A4Ed/wMAAf8/AAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DABn/
+        A4Ed/wMAAf8/AAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DABn/A4Ed/wMAGf8DgR3/AwAZ/wOBHf8DAAH/AwA5/wMAOf8DADn/AwA5/wMAAf8DAAH/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/
+        AwA5/wMAAf8/AAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DADn/AwAB/z8AAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wMAOf8DADn/AwA5/wMAAf8DAAn/A4Ed/wOBDf8DAAn/A4Ed/wOBDf8DAAn/
+        A4Ed/wOBDf8DAAn/A4Ed/wOBDf8DAAH/AwAB/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AwAJ/wOBHf8DgQ3/AwAJ/wOBHf8DgQ3/AwAB/z8AAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAAf8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMACf8DgR3/
+        A4EN/wMAAf8/AAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DAAn/A4Ed/wOBDf8DAAn/A4Ed/wOBDf8DAAn/A4Ed/wOBDf8DAAH/AwA5/wMAOf8DADn/
+        AwA5/wMAAf8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8DADn/AwA5/wMAAf8/AAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8DAAH/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8DADn/AwAB/z8AAf8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
+        AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wMAOf8DADn/AwA5/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/z8AAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8/AAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AUIBTQE+BwABPgMAASgDAAH0AwABMAMAAQEBAAEBBgABBhYAA///AP8A/wD/ABIAAR8B/wHABQAB/wH+
+        FgABHwH/AcAFAAH/Af4WAAEfAf8BwAUAAf8B/hYAAR8B/wHABQAB/wH+FgABHwH/AcAFAAH/Af4WAAEf
+        Af8BwAUAAf8B/hYAAR8B/wHABQAB/wH+FgABHwH/AcAFAAH/Af4WAAEfAf8BwAUAAf8B/hYAAR8B/wHA
+        BQAB/wH+FgABHwH/AcAFAAH/Af4WAAEfAf8BwAUAAf8B/hYAAR8B/wHABQAB/wH+FgABHwH/AcAFAAH/
+        Af4WAAEfAf8BwAUAAf8B/hYAAR8B/wHABQAB/wH+CQAL
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Add_Button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="Delete_Button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="Cancel_Button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAA2uAAANrgGQ+AXOAAACMklE
+        QVQ4T6WTy2/MURzFv5rQeLNgQWgjRu3oRkg0sRAbsUDSol2QiqJJk2pmMBONqpYOOpU+ZsQj8QxBRDzD
+        wh9g0aR+M8XMqN9FVXXa6Ty8Oc6dGeU36UoXJ/e3uOecz/fe+xMAMhaNmHPrY2Xz2+OdtlNJ/yJf0ljo
+        TRh5bTE1qyWqJh0bUtI4oKTuvRKXqcQRMmVrwKWLRwJoDqy7B2x6AJQ9BIrvA2tuA0uvA3MuAePPcnf7
+        d4gnDjkagdhD/ZYAmzfh30LjjkfArsdAOdf1d4DlDFjAgMlnMgHNCciRAYgj3GsJKPAljG007aZZB+yk
+        SkhUdAOwMWDqvwGawBF+ZyXoiBulJKjIEGznuoEEK0YjGC0gr3XYWEtDMVtLOf/Gu8DqW8CSq8Dc88CE
+        0xyh9Svk+DCk8SPPIItgtidqLCNu0U1gFbWSKrwG5F8kvj5A709IyydI0xDk8AdITdA6whT3oJF/BSi4
+        DCzmauM67wIw7RyQ4/vF9i+QEzG28wDreiHVz60BOQ0RYyI3z6BmUtPZmkvscbpZozfr6xuEHOqDHHgD
+        qfJbA+Rgn5HC7PiRlpdq+wY5+ZnNGXM90WvfQpw9kMqurACn8ouHM3qSf6WN7ijvndf2x7yfZnsQUtGZ
+        FeAIBcXNA2oiZkr81saG/jR2LbGdr9Pm6m5I+dOI5R1IyUuX7Av3yN5XijJTsvPN1wRN2fPClKqAKZXP
+        TDYrmk3Z/MRnCfjfP3JMv7Iu/Q1+7LKTp3WgHwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Ok_Button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+</root>

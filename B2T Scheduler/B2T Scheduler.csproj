@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DEBA3869-3390-485A-89EC-8D57B071D023}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>B2T_Scheduler</RootNamespace>
+    <AssemblyName>Scheduler</AssemblyName>
+    <ManifestCertificateThumbprint>366DCF17BDD5FDB2AB9528F75029EE148A181961</ManifestCertificateThumbprint>
+    <ManifestKeyFile>StrongNameKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ApplicationIcon>Scheduler.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>StrongNameKey.pfx</AssemblyOriginatorKeyFile>
+    <TargetZone>LocalIntranet</TargetZone>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>sftp://23.253.67.240:22/../var/www/vhosts/b2ttraining.com/public_html/scheduler/alpha/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://old.b2ttraining.com/scheduler/alpha/</InstallUrl>
+    <ProductName>Scheduler</ProductName>
+    <PublisherName>B2T Training</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>index.html</WebPage>
+    <ApplicationRevision>13</ApplicationRevision>
+    <ApplicationVersion>1.5.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Scheduler.XML</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <NoWarn>1591</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>B2T_Scheduler.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+    <NoWarn>CS1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DocumentationFile>bin\Debug\Scheduler.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>B2T_Scheduler.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Janus.Data.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Janus Systems\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Data.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.GridEX.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.TimeLine.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.UI.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Salesforce.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f7864e53fb79388, processorArchitecture=MSIL">
+      <HintPath>..\packages\DeveloperForce.Force.1.3.0\lib\Salesforce.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Salesforce.Force, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f7864e53fb79388, processorArchitecture=MSIL">
+      <HintPath>..\packages\DeveloperForce.Force.1.3.0\lib\Salesforce.Force.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\ForceConnection.cs" />
+    <Compile Include="Data\FromJValue.cs" />
+    <Compile Include="Data\LocalStorage.cs" />
+    <Compile Include="Data\SalesForceAppointmentCategoriesDAO.cs" />
+    <Compile Include="Data\SalesForceCoursesDAO.cs" />
+    <Compile Include="Data\SalesForceEmployeeCourseQualificationsDAO.cs" />
+    <Compile Include="Data\SalesForceEmployeeScheduleFactorsAsync.cs" />
+    <Compile Include="Data\SalesForceEmployeesDAO.cs" />
+    <Compile Include="Data\SalesForceClassLocationsDAO.cs" />
+    <Compile Include="Data\SalesForcePreferenceTypesDAO.cs" />
+    <Compile Include="Data\SalesForceSchedulePatternsDAO.cs" />
+    <Compile Include="Data\SalesForceFormatsDAO.cs" />
+    <Compile Include="Data\SalesForceFormatCategoriesDAO.cs" />
+    <Compile Include="Data\SalesForceHolidaysDAO.cs" />
+    <Compile Include="Data\SalesForceAccountsDAO.cs" />
+    <Compile Include="Data\SalesForceAppointmentsDAO.cs" />
+    <Compile Include="Data\SalesForceCredentials.cs" />
+    <Compile Include="Data\SalesForceDataAccessor.cs" />
+    <Compile Include="Data\Soql.cs" />
+    <Compile Include="Data\Util.cs" />
+    <Compile Include="Data\WhereBuilder.cs" />
+    <Compile Include="UI\AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CourseQualificationsEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CourseQualificationsEditor.Designer.cs">
+      <DependentUpon>CourseQualificationsEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Filter.cs" />
+    <Compile Include="UI\InstructorEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\InstructorEditor.designer.cs">
+      <DependentUpon>InstructorEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\QueryHistory.cs" />
+    <Compile Include="UI\SchedulePatternEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SchedulePatternEditor.designer.cs">
+      <DependentUpon>SchedulePatternEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PrintOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PrintOptions.designer.cs">
+      <DependentUpon>PrintOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UI\AboutBox1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CourseQualificationsEditor.resx">
+      <DependentUpon>CourseQualificationsEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\InstructorEditor.resx">
+      <DependentUpon>InstructorEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PrintOptions.resx">
+      <DependentUpon>PrintOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SchedulePatternEditor.resx">
+      <DependentUpon>SchedulePatternEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TipOfTheDay.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TipOfTheDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Documents\DevelopmentNotes.doc" />
+    <None Include="packages.config" />
+    <None Include="ScheduleDataSet.xsc">
+      <DependentUpon>ScheduleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ScheduleDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ScheduleDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ScheduleDataSet.xss">
+      <DependentUpon>ScheduleDataSet.xsd</DependentUpon>
+    </None>
+    <Compile Include="ReportEngine.cs" />
+    <Compile Include="ScheduleDataSet.cs">
+      <DependentUpon>ScheduleDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleDataSet.designer.cs">
+      <DependentUpon>ScheduleDataSet.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="UI\TipOfTheDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\TipOfTheDay.Designer.cs">
+      <DependentUpon>TipOfTheDay.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\Attention16.PNG" />
+    <Content Include="images\AttentionGray.png" />
+    <Content Include="images\Book.24.png" />
+    <Content Include="images\Class.32.png" />
+    <None Include="images\ConnectionSettings.png" />
+    <Content Include="images\ControlPanel.24.png" />
+    <Content Include="images\Course.16.png" />
+    <Content Include="images\Courses.16.png" />
+    <Content Include="images\Courses.32.png" />
+    <Content Include="images\GreenRightArrow.16.png" />
+    <Content Include="images\GreyBangCircle.png" />
+    <Content Include="images\Help.16.png" />
+    <Content Include="images\Legend.24.png" />
+    <Content Include="images\Options.24.png" />
+    <Content Include="images\People.16.png" />
+    <Content Include="images\Person.128.png" />
+    <Content Include="images\Person.16.png" />
+    <Content Include="images\Person.32.png" />
+    <Content Include="images\PersonError.16.png" />
+    <Content Include="images\PersonUnknown.16.png" />
+    <Content Include="images\PersonWarning.16.png" />
+    <Content Include="images\SchedulePatternLarge 0000.png" />
+    <Content Include="images\SchedulePatternLarge 100.png" />
+    <Content Include="images\SchedulePatternLarge 1000.png" />
+    <Content Include="images\SchedulePatternLarge 100000000000.png" />
+    <Content Include="images\SchedulePatternLarge 1010.png" />
+    <Content Include="images\SchedulePatternLarge 110.png" />
+    <Content Include="images\SchedulePatternLarge 1100.png" />
+    <Content Include="images\SchedulePatternLarge 1110.png" />
+    <Content Include="images\SchedulePatternLarge Null.png" />
+    <Content Include="images\SchedulePatternSmall 0000.png" />
+    <Content Include="images\SchedulePatternSmall 100.png" />
+    <Content Include="images\SchedulePatternSmall 1000.png" />
+    <Content Include="images\SchedulePatternSmall 100000000000.png" />
+    <Content Include="images\SchedulePatternSmall 1010.png" />
+    <Content Include="images\SchedulePatternSmall 110.png" />
+    <Content Include="images\SchedulePatternSmall 1100.png" />
+    <Content Include="images\SchedulePatternSmall 1110.png" />
+    <Content Include="images\SchedulePatternSmall Null.png" />
+    <Content Include="images\Scheduler.ico" />
+    <Content Include="Documents\ReleaseNotes.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Documents\Tips\Tip_001.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Documents\Tips\Tip_002.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Documents\Tips\Tip_003.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Documents\Tips\Tip_004.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Documents\Tips\Tip_005.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="images\SchedulerImage.png" />
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="images\Splash.png" />
+    <Content Include="Templates\CalendarTemplate.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\CombinedTemplate.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\ScheduleTemplate.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="StrongNameKey.pfx" />
+    <Content Include="images\Search.24.png" />
+    <Content Include="images\warning.bmp" />
+    <Content Include="Scheduler.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2010 Tools for Office Runtime %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DiffieHellman">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Data.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.Common.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.GridEX.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.TimeLine.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.UI.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="MySql.Data">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Org.Mentalis.Security">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Tamir.SharpSSH">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
