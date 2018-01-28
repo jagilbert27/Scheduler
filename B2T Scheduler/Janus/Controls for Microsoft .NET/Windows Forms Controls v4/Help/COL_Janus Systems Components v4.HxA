@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE HelpAttributes>
+<HelpAttributes DTDVersion="1.0">
+   <AttName Name="Product" Display="Yes" UIString="Product" AttType="Enum">
+      <AttVal Name="Janus.Systems" Display="Yes" UIString="Janus Systems Components" />	
+   </AttName>
+</HelpAttributes>

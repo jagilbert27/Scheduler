@@ -35,7 +35,7 @@ namespace B2T_Scheduler
             }
 
             this.labelCopyright.Text = AssemblyCopyright + ", " + AssemblyCompany;
-            this.labelCompanyName.Text = "Author: Jeff Gilbert, jagilbert@windstream.net";
+            this.labelCompanyName.Text = "Author: Jeff Gilbert, Jeff.Gilbert.Codes@gmail.com";
 
             //Display the release notes on the login/splash screen
             try

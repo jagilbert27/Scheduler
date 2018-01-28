@@ -625,7 +625,7 @@ namespace B2T_Scheduler
             this.timeLine1.SelectedFormatStyle.ForeColor = System.Drawing.Color.White;
             this.timeLine1.ShowItemsEstimatedDurationBar = true;
             this.timeLine1.ShowLastGroupAsRowHeader = true;
-            this.timeLine1.Size = new System.Drawing.Size(248, 101);
+            this.timeLine1.Size = new System.Drawing.Size(339, 92);
             this.timeLine1.StartTimeMember = "StartDate";
             this.timeLine1.TabIndex = 2;
             this.timeLine1.Text = "timeLine1";
@@ -1751,13 +1751,13 @@ namespace B2T_Scheduler
             // 
             this.uiPanelManager1.BeginPanelInfo();
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("feca37a8-e2ea-4812-8ced-0c3e01b77702"), Janus.Windows.UI.Dock.PanelDockStyle.Right, new System.Drawing.Size(70, 636), true);
-            this.uiPanelManager1.AddDockPanelInfo(new System.Guid("425758fa-6fbe-44f8-a82e-f89338f792f1"), Janus.Windows.UI.Dock.PanelGroupStyle.OutlookNavigator, Janus.Windows.UI.Dock.PanelDockStyle.Left, true, new System.Drawing.Size(255, 272), true);
+            this.uiPanelManager1.AddDockPanelInfo(new System.Guid("425758fa-6fbe-44f8-a82e-f89338f792f1"), Janus.Windows.UI.Dock.PanelGroupStyle.OutlookNavigator, Janus.Windows.UI.Dock.PanelDockStyle.Left, true, new System.Drawing.Size(255, 254), true);
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("ab581ff6-c54a-49d9-be1c-5b5d4408e639"), new System.Guid("425758fa-6fbe-44f8-a82e-f89338f792f1"), -1, true);
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("4a021462-7df7-44d7-8004-902096f54a54"), new System.Guid("425758fa-6fbe-44f8-a82e-f89338f792f1"), -1, true);
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("9ebded1f-aa7e-4d6b-94a6-9a6172d1a634"), new System.Guid("425758fa-6fbe-44f8-a82e-f89338f792f1"), -1, true);
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("4c472ae5-2943-44e1-9553-cab3187aeda1"), new System.Guid("425758fa-6fbe-44f8-a82e-f89338f792f1"), -1, true);
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("858f1255-40db-4c3b-91f2-9a1b7ee8f03f"), new System.Guid("425758fa-6fbe-44f8-a82e-f89338f792f1"), -1, true);
-            this.uiPanelManager1.AddDockPanelInfo(new System.Guid("a7cbc224-77c9-4cbd-a977-9d972b5b0305"), Janus.Windows.UI.Dock.PanelGroupStyle.HorizontalTiles, Janus.Windows.UI.Dock.PanelDockStyle.Fill, true, new System.Drawing.Size(250, 272), true);
+            this.uiPanelManager1.AddDockPanelInfo(new System.Guid("a7cbc224-77c9-4cbd-a977-9d972b5b0305"), Janus.Windows.UI.Dock.PanelGroupStyle.HorizontalTiles, Janus.Windows.UI.Dock.PanelDockStyle.Fill, true, new System.Drawing.Size(341, 254), true);
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("44f670c3-b23e-4ca3-861d-8a4a97219ead"), new System.Guid("a7cbc224-77c9-4cbd-a977-9d972b5b0305"), 261, true);
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("055c54e9-baf5-45d6-ab44-789609a51675"), new System.Guid("a7cbc224-77c9-4cbd-a977-9d972b5b0305"), 40, true);
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("66a510e8-4ed8-423a-8687-1048f9a31efa"), new System.Guid("a7cbc224-77c9-4cbd-a977-9d972b5b0305"), Janus.Windows.UI.Dock.PanelGroupStyle.Tab, true, 297, true);
@@ -1851,7 +1851,7 @@ namespace B2T_Scheduler
             this.uiPanel_LeftMenu.Name = "uiPanel_LeftMenu";
             this.uiPanel_LeftMenu.SelectedPanel = this.uiPanel_Courses;
             this.uiPanel_LeftMenu.ShowOutlookNavigatorConfigureMenu = false;
-            this.uiPanel_LeftMenu.Size = new System.Drawing.Size(255, 272);
+            this.uiPanel_LeftMenu.Size = new System.Drawing.Size(255, 254);
             this.uiPanel_LeftMenu.TabDisplay = Janus.Windows.UI.Dock.TabDisplayMode.Image;
             this.uiPanel_LeftMenu.TabIndex = 4;
             this.uiPanel_LeftMenu.Text = "Stuff Goes Here";
@@ -1862,7 +1862,7 @@ namespace B2T_Scheduler
             this.uiPanel_Filter.InnerContainer = this.uiPanel_FilterContainer;
             this.uiPanel_Filter.Location = new System.Drawing.Point(0, 0);
             this.uiPanel_Filter.Name = "uiPanel_Filter";
-            this.uiPanel_Filter.Size = new System.Drawing.Size(251, 74);
+            this.uiPanel_Filter.Size = new System.Drawing.Size(251, 56);
             this.uiPanel_Filter.TabIndex = 4;
             this.uiPanel_Filter.Text = "Filter";
             // 
@@ -1874,7 +1874,7 @@ namespace B2T_Scheduler
             this.uiPanel_FilterContainer.Controls.Add(this.groupBox3);
             this.uiPanel_FilterContainer.Location = new System.Drawing.Point(1, 32);
             this.uiPanel_FilterContainer.Name = "uiPanel_FilterContainer";
-            this.uiPanel_FilterContainer.Size = new System.Drawing.Size(249, 42);
+            this.uiPanel_FilterContainer.Size = new System.Drawing.Size(249, 24);
             this.uiPanel_FilterContainer.TabIndex = 0;
             // 
             // linkLabel_ResetFilter
@@ -1883,7 +1883,7 @@ namespace B2T_Scheduler
             this.linkLabel_ResetFilter.AutoSize = true;
             this.linkLabel_ResetFilter.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel_ResetFilter.Font = new System.Drawing.Font("Tahoma", 7F);
-            this.linkLabel_ResetFilter.Location = new System.Drawing.Point(174, 27);
+            this.linkLabel_ResetFilter.Location = new System.Drawing.Point(174, 9);
             this.linkLabel_ResetFilter.Name = "linkLabel_ResetFilter";
             this.linkLabel_ResetFilter.Size = new System.Drawing.Size(73, 12);
             this.linkLabel_ResetFilter.TabIndex = 21;
@@ -1900,7 +1900,7 @@ namespace B2T_Scheduler
             this.groupBox7.Controls.Add(this.tre_Filters);
             this.groupBox7.Location = new System.Drawing.Point(8, 90);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(233, 21);
+            this.groupBox7.Size = new System.Drawing.Size(233, 3);
             this.groupBox7.TabIndex = 22;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Items to include";
@@ -1918,7 +1918,7 @@ namespace B2T_Scheduler
             this.tre_Filters.Location = new System.Drawing.Point(6, 16);
             this.tre_Filters.Name = "tre_Filters";
             this.tre_Filters.SelectedImageIndex = 0;
-            this.tre_Filters.Size = new System.Drawing.Size(221, 6);
+            this.tre_Filters.Size = new System.Drawing.Size(221, 1);
             this.tre_Filters.TabIndex = 4;
             this.tre_Filters.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.tre_Filters_AfterCheck);
             // 
@@ -2022,7 +2022,7 @@ namespace B2T_Scheduler
             this.uiPanel_Courses.InnerContainer = this.uiPanel_CoursesContainer;
             this.uiPanel_Courses.Location = new System.Drawing.Point(0, 0);
             this.uiPanel_Courses.Name = "uiPanel_Courses";
-            this.uiPanel_Courses.Size = new System.Drawing.Size(251, 74);
+            this.uiPanel_Courses.Size = new System.Drawing.Size(251, 56);
             this.uiPanel_Courses.TabIndex = 4;
             this.uiPanel_Courses.Text = "Courses & Events";
             // 
@@ -2033,7 +2033,7 @@ namespace B2T_Scheduler
             this.uiPanel_CoursesContainer.Controls.Add(this.tre_Courses);
             this.uiPanel_CoursesContainer.Location = new System.Drawing.Point(1, 32);
             this.uiPanel_CoursesContainer.Name = "uiPanel_CoursesContainer";
-            this.uiPanel_CoursesContainer.Size = new System.Drawing.Size(249, 42);
+            this.uiPanel_CoursesContainer.Size = new System.Drawing.Size(249, 24);
             this.uiPanel_CoursesContainer.TabIndex = 0;
             // 
             // ck_ShowQualifiedInstructors
@@ -2042,7 +2042,7 @@ namespace B2T_Scheduler
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ck_ShowQualifiedInstructors.BackColor = System.Drawing.Color.Transparent;
             this.ck_ShowQualifiedInstructors.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.ck_ShowQualifiedInstructors.Location = new System.Drawing.Point(8, 11);
+            this.ck_ShowQualifiedInstructors.Location = new System.Drawing.Point(8, -7);
             this.ck_ShowQualifiedInstructors.Margin = new System.Windows.Forms.Padding(0);
             this.ck_ShowQualifiedInstructors.Name = "ck_ShowQualifiedInstructors";
             this.ck_ShowQualifiedInstructors.Size = new System.Drawing.Size(238, 30);
@@ -2078,7 +2078,7 @@ namespace B2T_Scheduler
             treeNode9,
             treeNode10});
             this.tre_Courses.SelectedImageIndex = 0;
-            this.tre_Courses.Size = new System.Drawing.Size(233, 21);
+            this.tre_Courses.Size = new System.Drawing.Size(233, 3);
             this.tre_Courses.TabIndex = 0;
             this.tre_Courses.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.tre_Courses_ItemDrag);
             this.tre_Courses.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tre_Courses_AfterSelect);
@@ -2090,7 +2090,7 @@ namespace B2T_Scheduler
             this.uiPanel_Options.InnerContainer = this.uiPanel_OptionsContainer;
             this.uiPanel_Options.Location = new System.Drawing.Point(0, 0);
             this.uiPanel_Options.Name = "uiPanel_Options";
-            this.uiPanel_Options.Size = new System.Drawing.Size(251, 74);
+            this.uiPanel_Options.Size = new System.Drawing.Size(251, 56);
             this.uiPanel_Options.TabIndex = 4;
             this.uiPanel_Options.Text = "Display Options";
             // 
@@ -2106,7 +2106,7 @@ namespace B2T_Scheduler
             this.uiPanel_OptionsContainer.Controls.Add(this.groupBox_DisplayInstructors);
             this.uiPanel_OptionsContainer.Location = new System.Drawing.Point(1, 32);
             this.uiPanel_OptionsContainer.Name = "uiPanel_OptionsContainer";
-            this.uiPanel_OptionsContainer.Size = new System.Drawing.Size(249, 42);
+            this.uiPanel_OptionsContainer.Size = new System.Drawing.Size(249, 24);
             this.uiPanel_OptionsContainer.TabIndex = 0;
             // 
             // linkLabel1
@@ -2115,7 +2115,7 @@ namespace B2T_Scheduler
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Font = new System.Drawing.Font("Tahoma", 7F);
-            this.linkLabel1.Location = new System.Drawing.Point(174, 27);
+            this.linkLabel1.Location = new System.Drawing.Point(174, 9);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(73, 12);
             this.linkLabel1.TabIndex = 27;
@@ -2133,7 +2133,7 @@ namespace B2T_Scheduler
             this.groupBox_DisplayOptions.Controls.Add(this.tre_DisplayOptions);
             this.groupBox_DisplayOptions.Location = new System.Drawing.Point(8, 139);
             this.groupBox_DisplayOptions.Name = "groupBox_DisplayOptions";
-            this.groupBox_DisplayOptions.Size = new System.Drawing.Size(233, 21);
+            this.groupBox_DisplayOptions.Size = new System.Drawing.Size(233, 3);
             this.groupBox_DisplayOptions.TabIndex = 26;
             this.groupBox_DisplayOptions.TabStop = false;
             this.groupBox_DisplayOptions.Text = "Options";
@@ -2367,7 +2367,7 @@ namespace B2T_Scheduler
             treeNode68,
             treeNode76,
             treeNode79});
-            this.tre_DisplayOptions.Size = new System.Drawing.Size(227, 5);
+            this.tre_DisplayOptions.Size = new System.Drawing.Size(227, 1);
             this.tre_DisplayOptions.TabIndex = 17;
             this.tre_DisplayOptions.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.tre_DisplayOptions_AfterCheck);
             // 
@@ -2455,7 +2455,7 @@ namespace B2T_Scheduler
             this.uiPanel_Legend.InnerContainer = this.uiPanel_LegendContainer;
             this.uiPanel_Legend.Location = new System.Drawing.Point(0, 0);
             this.uiPanel_Legend.Name = "uiPanel_Legend";
-            this.uiPanel_Legend.Size = new System.Drawing.Size(251, 74);
+            this.uiPanel_Legend.Size = new System.Drawing.Size(251, 56);
             this.uiPanel_Legend.TabIndex = 4;
             this.uiPanel_Legend.Text = "Legend";
             this.uiPanel_Legend.MouseLeave += new System.EventHandler(this.uiPanel_Legend_MouseLeave);
@@ -2467,7 +2467,7 @@ namespace B2T_Scheduler
             this.uiPanel_LegendContainer.Controls.Add(this.pnl_Legend);
             this.uiPanel_LegendContainer.Location = new System.Drawing.Point(1, 32);
             this.uiPanel_LegendContainer.Name = "uiPanel_LegendContainer";
-            this.uiPanel_LegendContainer.Size = new System.Drawing.Size(249, 42);
+            this.uiPanel_LegendContainer.Size = new System.Drawing.Size(249, 24);
             this.uiPanel_LegendContainer.TabIndex = 0;
             this.uiPanel_LegendContainer.MouseLeave += new System.EventHandler(this.pnl_Legend_MouseLeave);
             // 
@@ -2477,7 +2477,7 @@ namespace B2T_Scheduler
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_Legend_Description.BackColor = System.Drawing.SystemColors.Control;
             this.txt_Legend_Description.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_Legend_Description.Location = new System.Drawing.Point(8, -27);
+            this.txt_Legend_Description.Location = new System.Drawing.Point(8, -45);
             this.txt_Legend_Description.Multiline = true;
             this.txt_Legend_Description.Name = "txt_Legend_Description";
             this.txt_Legend_Description.ReadOnly = true;
@@ -2491,7 +2491,7 @@ namespace B2T_Scheduler
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_Lengend_Description_Title.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Lengend_Description_Title.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Lengend_Description_Title.Location = new System.Drawing.Point(8, -44);
+            this.lbl_Lengend_Description_Title.Location = new System.Drawing.Point(8, -62);
             this.lbl_Lengend_Description_Title.Name = "lbl_Lengend_Description_Title";
             this.lbl_Lengend_Description_Title.Size = new System.Drawing.Size(233, 14);
             this.lbl_Lengend_Description_Title.TabIndex = 3;
@@ -2512,7 +2512,7 @@ namespace B2T_Scheduler
             this.pnl_Legend.Padding = new System.Windows.Forms.Padding(5);
             this.pnl_Legend.RowCount = 1;
             this.pnl_Legend.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.pnl_Legend.Size = new System.Drawing.Size(233, 21);
+            this.pnl_Legend.Size = new System.Drawing.Size(233, 3);
             this.pnl_Legend.TabIndex = 4;
             this.pnl_Legend.MouseLeave += new System.EventHandler(this.pnl_Legend_MouseLeave);
             // 
@@ -2522,7 +2522,7 @@ namespace B2T_Scheduler
             this.uiPanel_Log.InnerContainer = this.uiPanel_LogContainer;
             this.uiPanel_Log.Location = new System.Drawing.Point(0, 0);
             this.uiPanel_Log.Name = "uiPanel_Log";
-            this.uiPanel_Log.Size = new System.Drawing.Size(251, 74);
+            this.uiPanel_Log.Size = new System.Drawing.Size(251, 56);
             this.uiPanel_Log.TabIndex = 4;
             this.uiPanel_Log.Text = "Log";
             // 
@@ -2533,7 +2533,7 @@ namespace B2T_Scheduler
             this.uiPanel_LogContainer.Controls.Add(this.rtb_Log);
             this.uiPanel_LogContainer.Location = new System.Drawing.Point(1, 32);
             this.uiPanel_LogContainer.Name = "uiPanel_LogContainer";
-            this.uiPanel_LogContainer.Size = new System.Drawing.Size(249, 42);
+            this.uiPanel_LogContainer.Size = new System.Drawing.Size(249, 24);
             this.uiPanel_LogContainer.TabIndex = 0;
             // 
             // linkLabel_ClearLog
@@ -2542,7 +2542,7 @@ namespace B2T_Scheduler
             this.linkLabel_ClearLog.AutoSize = true;
             this.linkLabel_ClearLog.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel_ClearLog.Font = new System.Drawing.Font("Tahoma", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel_ClearLog.Location = new System.Drawing.Point(2, 25);
+            this.linkLabel_ClearLog.Location = new System.Drawing.Point(2, 7);
             this.linkLabel_ClearLog.Name = "linkLabel_ClearLog";
             this.linkLabel_ClearLog.Size = new System.Drawing.Size(28, 12);
             this.linkLabel_ClearLog.TabIndex = 1;
@@ -2559,7 +2559,7 @@ namespace B2T_Scheduler
             this.rtb_Log.Location = new System.Drawing.Point(0, 0);
             this.rtb_Log.Name = "rtb_Log";
             this.rtb_Log.ReadOnly = true;
-            this.rtb_Log.Size = new System.Drawing.Size(249, 22);
+            this.rtb_Log.Size = new System.Drawing.Size(249, 4);
             this.rtb_Log.TabIndex = 0;
             this.rtb_Log.Text = "";
             // 
@@ -2576,7 +2576,7 @@ namespace B2T_Scheduler
             this.uiPanel_Middle.Location = new System.Drawing.Point(258, 34);
             this.uiPanel_Middle.Margin = new System.Windows.Forms.Padding(0);
             this.uiPanel_Middle.Name = "uiPanel_Middle";
-            this.uiPanel_Middle.Size = new System.Drawing.Size(250, 272);
+            this.uiPanel_Middle.Size = new System.Drawing.Size(341, 254);
             this.uiPanel_Middle.SplitterSize = 5;
             this.uiPanel_Middle.TabIndex = 4;
             this.uiPanel_Middle.Text = "Middle Panel";
@@ -2588,7 +2588,7 @@ namespace B2T_Scheduler
             this.uiPanel_MiddleTop.InnerContainer = this.uiPanel_MiddleTopContainer;
             this.uiPanel_MiddleTop.Location = new System.Drawing.Point(0, 0);
             this.uiPanel_MiddleTop.Name = "uiPanel_MiddleTop";
-            this.uiPanel_MiddleTop.Size = new System.Drawing.Size(250, 103);
+            this.uiPanel_MiddleTop.Size = new System.Drawing.Size(341, 94);
             this.uiPanel_MiddleTop.TabIndex = 4;
             this.uiPanel_MiddleTop.Text = "Panel 2";
             this.uiPanel_MiddleTop.Visible = false;
@@ -2599,7 +2599,7 @@ namespace B2T_Scheduler
             this.uiPanel_MiddleTopContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.uiPanel_MiddleTopContainer.Location = new System.Drawing.Point(1, 1);
             this.uiPanel_MiddleTopContainer.Name = "uiPanel_MiddleTopContainer";
-            this.uiPanel_MiddleTopContainer.Size = new System.Drawing.Size(248, 101);
+            this.uiPanel_MiddleTopContainer.Size = new System.Drawing.Size(339, 92);
             this.uiPanel_MiddleTopContainer.TabIndex = 0;
             this.uiPanel_MiddleTopContainer.Resize += new System.EventHandler(this.uiPanel_MiddleTopContainer_Resize);
             // 
@@ -2607,10 +2607,10 @@ namespace B2T_Scheduler
             // 
             this.uiPanel_NavBarTest.CaptionVisible = Janus.Windows.UI.InheritableBoolean.False;
             this.uiPanel_NavBarTest.InnerContainer = this.uiPanel_NavBarTestContainer;
-            this.uiPanel_NavBarTest.Location = new System.Drawing.Point(0, 108);
+            this.uiPanel_NavBarTest.Location = new System.Drawing.Point(0, 99);
             this.uiPanel_NavBarTest.Margin = new System.Windows.Forms.Padding(0);
             this.uiPanel_NavBarTest.Name = "uiPanel_NavBarTest";
-            this.uiPanel_NavBarTest.Size = new System.Drawing.Size(250, 40);
+            this.uiPanel_NavBarTest.Size = new System.Drawing.Size(341, 40);
             this.uiPanel_NavBarTest.TabIndex = 4;
             this.uiPanel_NavBarTest.Text = "Panel 0";
             // 
@@ -2620,7 +2620,7 @@ namespace B2T_Scheduler
             this.uiPanel_NavBarTestContainer.Location = new System.Drawing.Point(1, 1);
             this.uiPanel_NavBarTestContainer.Margin = new System.Windows.Forms.Padding(0);
             this.uiPanel_NavBarTestContainer.Name = "uiPanel_NavBarTestContainer";
-            this.uiPanel_NavBarTestContainer.Size = new System.Drawing.Size(248, 38);
+            this.uiPanel_NavBarTestContainer.Size = new System.Drawing.Size(339, 38);
             this.uiPanel_NavBarTestContainer.TabIndex = 0;
             // 
             // NavMap
@@ -2631,7 +2631,7 @@ namespace B2T_Scheduler
             this.NavMap.Dock = System.Windows.Forms.DockStyle.Fill;
             this.NavMap.Location = new System.Drawing.Point(0, 0);
             this.NavMap.Name = "NavMap";
-            this.NavMap.Size = new System.Drawing.Size(248, 38);
+            this.NavMap.Size = new System.Drawing.Size(339, 38);
             this.NavMap.TabIndex = 2;
             this.NavMap.TabStop = false;
             this.NavMap.SizeChanged += new System.EventHandler(this.NavMap_SizeChanged);
@@ -2645,11 +2645,11 @@ namespace B2T_Scheduler
             this.uiPanel_AppointmentDetail.CaptionStyle = Janus.Windows.UI.Dock.PanelCaptionStyle.Standard;
             this.uiPanel_AppointmentDetail.CaptionVisible = Janus.Windows.UI.InheritableBoolean.False;
             this.uiPanel_AppointmentDetail.GroupStyle = Janus.Windows.UI.Dock.PanelGroupStyle.Tab;
-            this.uiPanel_AppointmentDetail.Location = new System.Drawing.Point(0, 153);
+            this.uiPanel_AppointmentDetail.Location = new System.Drawing.Point(0, 144);
             this.uiPanel_AppointmentDetail.Margin = new System.Windows.Forms.Padding(0);
             this.uiPanel_AppointmentDetail.Name = "uiPanel_AppointmentDetail";
             this.uiPanel_AppointmentDetail.SelectedPanel = this.uiPanel_AppointmentEditor;
-            this.uiPanel_AppointmentDetail.Size = new System.Drawing.Size(250, 119);
+            this.uiPanel_AppointmentDetail.Size = new System.Drawing.Size(341, 110);
             this.uiPanel_AppointmentDetail.TabAlignment = Janus.Windows.UI.Dock.TabAlignment.Top;
             this.uiPanel_AppointmentDetail.TabDisplay = Janus.Windows.UI.Dock.TabDisplayMode.ImageAndText;
             this.uiPanel_AppointmentDetail.TabIndex = 4;
@@ -2661,7 +2661,7 @@ namespace B2T_Scheduler
             this.uiPanel_EmployeeEditor3.InnerContainer = this.uiPanel_EmployeeEditor3Container;
             this.uiPanel_EmployeeEditor3.Location = new System.Drawing.Point(0, 21);
             this.uiPanel_EmployeeEditor3.Name = "uiPanel_EmployeeEditor3";
-            this.uiPanel_EmployeeEditor3.Size = new System.Drawing.Size(250, 98);
+            this.uiPanel_EmployeeEditor3.Size = new System.Drawing.Size(341, 89);
             this.uiPanel_EmployeeEditor3.TabIndex = 4;
             this.uiPanel_EmployeeEditor3.Text = "Instructor";
             // 
@@ -2671,7 +2671,7 @@ namespace B2T_Scheduler
             this.uiPanel_EmployeeEditor3Container.Dock = System.Windows.Forms.DockStyle.Fill;
             this.uiPanel_EmployeeEditor3Container.Location = new System.Drawing.Point(1, 1);
             this.uiPanel_EmployeeEditor3Container.Name = "uiPanel_EmployeeEditor3Container";
-            this.uiPanel_EmployeeEditor3Container.Size = new System.Drawing.Size(248, 96);
+            this.uiPanel_EmployeeEditor3Container.Size = new System.Drawing.Size(339, 87);
             this.uiPanel_EmployeeEditor3Container.TabIndex = 0;
             // 
             // instructorEditor1
@@ -2686,7 +2686,7 @@ namespace B2T_Scheduler
             this.instructorEditor1.ModifiedByFormatString = "Last modified by {0}\non {1:MM/dd/yyyy}";
             this.instructorEditor1.Name = "instructorEditor1";
             this.instructorEditor1.NameField = "FullName";
-            this.instructorEditor1.Size = new System.Drawing.Size(248, 96);
+            this.instructorEditor1.Size = new System.Drawing.Size(339, 87);
             this.instructorEditor1.TabIndex = 0;
             this.instructorEditor1.DataChanged += new B2T_Scheduler.InstructorEditor.DataChangedHandler(this.instructorEditor1_DataChanged);
             // 
@@ -2697,7 +2697,7 @@ namespace B2T_Scheduler
             this.uiPanel_AppointmentEditor.Location = new System.Drawing.Point(0, 21);
             this.uiPanel_AppointmentEditor.Margin = new System.Windows.Forms.Padding(0);
             this.uiPanel_AppointmentEditor.Name = "uiPanel_AppointmentEditor";
-            this.uiPanel_AppointmentEditor.Size = new System.Drawing.Size(250, 98);
+            this.uiPanel_AppointmentEditor.Size = new System.Drawing.Size(341, 89);
             this.uiPanel_AppointmentEditor.TabIndex = 4;
             this.uiPanel_AppointmentEditor.Text = "Editor";
             // 
@@ -2710,7 +2710,7 @@ namespace B2T_Scheduler
             this.uiPanel_AppointmentEditorContainer.Location = new System.Drawing.Point(1, 1);
             this.uiPanel_AppointmentEditorContainer.Margin = new System.Windows.Forms.Padding(0);
             this.uiPanel_AppointmentEditorContainer.Name = "uiPanel_AppointmentEditorContainer";
-            this.uiPanel_AppointmentEditorContainer.Size = new System.Drawing.Size(248, 96);
+            this.uiPanel_AppointmentEditorContainer.Size = new System.Drawing.Size(339, 87);
             this.uiPanel_AppointmentEditorContainer.TabIndex = 0;
             // 
             // panel_HolidayEditor
@@ -2934,7 +2934,7 @@ namespace B2T_Scheduler
             this.uiPanel_AppointmentStatus.InnerContainer = this.uiPanel_AppointmentStatusContainer;
             this.uiPanel_AppointmentStatus.Location = new System.Drawing.Point(0, 21);
             this.uiPanel_AppointmentStatus.Name = "uiPanel_AppointmentStatus";
-            this.uiPanel_AppointmentStatus.Size = new System.Drawing.Size(250, 98);
+            this.uiPanel_AppointmentStatus.Size = new System.Drawing.Size(341, 89);
             this.uiPanel_AppointmentStatus.TabIndex = 4;
             this.uiPanel_AppointmentStatus.Text = "Status";
             // 
@@ -2943,7 +2943,7 @@ namespace B2T_Scheduler
             this.uiPanel_AppointmentStatusContainer.Controls.Add(this.tre_Violations);
             this.uiPanel_AppointmentStatusContainer.Location = new System.Drawing.Point(1, 1);
             this.uiPanel_AppointmentStatusContainer.Name = "uiPanel_AppointmentStatusContainer";
-            this.uiPanel_AppointmentStatusContainer.Size = new System.Drawing.Size(248, 96);
+            this.uiPanel_AppointmentStatusContainer.Size = new System.Drawing.Size(339, 87);
             this.uiPanel_AppointmentStatusContainer.TabIndex = 0;
             // 
             // tre_Violations
@@ -2955,7 +2955,7 @@ namespace B2T_Scheduler
             this.tre_Violations.Location = new System.Drawing.Point(0, 0);
             this.tre_Violations.Name = "tre_Violations";
             this.tre_Violations.SelectedImageIndex = 0;
-            this.tre_Violations.Size = new System.Drawing.Size(248, 96);
+            this.tre_Violations.Size = new System.Drawing.Size(339, 87);
             this.tre_Violations.TabIndex = 515;
             // 
             // employeeScheduleFactorsBindingSource
@@ -3066,10 +3066,10 @@ namespace B2T_Scheduler
             this.lbl_CancelLongOperation,
             this.toolStripProgressBar1,
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 309);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 291);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.statusStrip1.Size = new System.Drawing.Size(530, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(621, 22);
             this.statusStrip1.TabIndex = 5;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -3090,7 +3090,7 @@ namespace B2T_Scheduler
             this.toolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(530, 31);
+            this.toolStrip1.Size = new System.Drawing.Size(621, 31);
             this.toolStrip1.TabIndex = 6;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -3258,7 +3258,7 @@ namespace B2T_Scheduler
             this.tsl_CurrentUserName.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsl_CurrentUserName.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.tsl_CurrentUserName.Name = "tsl_CurrentUserName";
-            this.tsl_CurrentUserName.Size = new System.Drawing.Size(129, 19);
+            this.tsl_CurrentUserName.Size = new System.Drawing.Size(129, 28);
             this.tsl_CurrentUserName.Text = "Please Log In...";
             // 
             // backgroundWorker1
@@ -3550,7 +3550,7 @@ namespace B2T_Scheduler
             this.pnl_Login.Controls.Add(this.linkLabel_ReleaseNotes);
             this.pnl_Login.Location = new System.Drawing.Point(0, 0);
             this.pnl_Login.Name = "pnl_Login";
-            this.pnl_Login.Size = new System.Drawing.Size(530, 306);
+            this.pnl_Login.Size = new System.Drawing.Size(621, 288);
             this.pnl_Login.TabIndex = 7;
             // 
             // label59
@@ -3659,7 +3659,7 @@ namespace B2T_Scheduler
             this.linkLabel_ReleaseNotes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.linkLabel_ReleaseNotes.AutoSize = true;
             this.linkLabel_ReleaseNotes.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel_ReleaseNotes.Location = new System.Drawing.Point(448, 285);
+            this.linkLabel_ReleaseNotes.Location = new System.Drawing.Point(539, 267);
             this.linkLabel_ReleaseNotes.Name = "linkLabel_ReleaseNotes";
             this.linkLabel_ReleaseNotes.Size = new System.Drawing.Size(36, 13);
             this.linkLabel_ReleaseNotes.TabIndex = 11;
@@ -3670,7 +3670,7 @@ namespace B2T_Scheduler
             // MainForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 14);
-            this.ClientSize = new System.Drawing.Size(530, 331);
+            this.ClientSize = new System.Drawing.Size(621, 313);
             this.Controls.Add(this.pnl_Login);
             this.Controls.Add(this.uiPanel_Middle);
             this.Controls.Add(this.uiPanel_LeftMenu);

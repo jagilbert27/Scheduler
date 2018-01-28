@@ -29,7 +29,7 @@ namespace B2T_Scheduler.Data
                 FROM    Contact" +
                 new WhereBuilder()
                     .Where("Instructor__c = true")
-                    .WhereDate("LastModifiedDate > ", since)
+                    .WhereDateTime("LastModifiedDate > ", since)
             );
             var response = await Force.Connect().QueryAsync<dynamic>(soql).ConfigureAwait(false);
             Log.MarkQueryComplete(logName, response.Records.Count);
@@ -75,7 +75,7 @@ namespace B2T_Scheduler.Data
                 FROM    User" +
                 new WhereBuilder()
                     .Where("EmployeeNumber > ","0")
-                    .WhereDate("LastModifiedDate > ", since));
+                    .WhereDateTime("LastModifiedDate > ", since));
 
             response = await Force.Connect().QueryAsync<dynamic>(soql).ConfigureAwait(false);
             Log.MarkQueryComplete(logName, response.Records.Count);

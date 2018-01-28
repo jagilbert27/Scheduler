@@ -29,7 +29,7 @@ namespace B2T_Scheduler.Data
                 FROM    Class_Location__c" +
                 new WhereBuilder()
                     .Where("IsDeleted=false")
-                    .WhereDate("LastModifiedDate >", since));
+                    .WhereDateTime("LastModifiedDate >", since));
             var response = await Force.Connect().QueryAsync<dynamic>(soql).ConfigureAwait(false);
             Log.MarkQueryComplete(Table.TableName, response.Records.Count);
 

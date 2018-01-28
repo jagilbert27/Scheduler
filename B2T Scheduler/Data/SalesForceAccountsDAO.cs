@@ -27,7 +27,7 @@ namespace B2T_Scheduler.Data
                 SELECT  Id, Name, LastModifiedDate
                 FROM    Account" +
                 new WhereBuilder()
-                    .WhereDate("WHERE LastModifiedDate >", modifiedSince));
+                    .WhereDateTime("WHERE LastModifiedDate >", modifiedSince));
 
             var response = await Force.Connect().QueryAsync<dynamic>(soql).ConfigureAwait(false);
             Log.MarkQueryComplete(Table.TableName, response.Records.Count);

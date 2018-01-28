@@ -24,7 +24,7 @@ namespace B2T_Scheduler.Data
                 SELECT  Instructor__c, SchCourseId__c, EffectiveDate__c, ExpirationDate__c, 
                         QualificationLevel__c, IsDeleted,LastModifiedById, LastModifiedDate
                 FROM    schInstructorCourseQualification__c" + 
-                new WhereBuilder().WhereDate("LastModifiedDate > ",since));
+                new WhereBuilder().WhereDateTime("LastModifiedDate > ",since));
             var response = await Force.Connect().QueryAsync<dynamic>(soql).ConfigureAwait(false);
             Log.MarkQueryComplete(logName, response.Records.Count);
 

@@ -35,6 +35,8 @@ namespace B2T_Scheduler.Data
         {
             if (date.HasValue)
                 items.Add(fieldAndOperator + Soql.Date(date.Value));
+
+            //2017 - 08 - 10T19: 04:54.000Z
             return this;
         }
 

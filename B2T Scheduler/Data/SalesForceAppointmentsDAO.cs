@@ -46,7 +46,7 @@ namespace B2T_Scheduler.Data
                         Status__c, White_Paper_Sent__c, LastModifiedById, LastModifiedDate
                 FROM    pss_Course__c" +
                  new WhereBuilder()
-                     .WhereDate("LastModifiedDate > ", modifiedSince)
+                     .WhereDateTime("LastModifiedDate > ", modifiedSince)
                      .WhereDate("Start_Date__c >= ", startDate)
                      .WhereDate("End_Date__c < ", endDate)
                      .ToString() +
@@ -108,7 +108,7 @@ namespace B2T_Scheduler.Data
                 FROM    Event" +
                 new WhereBuilder()
                     .Where("Id = ", eventId)
-                    .WhereDate("LastModifiedDate > ", modifiedSince)
+                    .WhereDateTime("LastModifiedDate > ", modifiedSince)
                     .WhereDateTime("StartDateTime >= ", startDate)
                     .WhereDateTime("EndDateTime < ", endDate));
 
@@ -145,7 +145,8 @@ namespace B2T_Scheduler.Data
         private async Task<int> SaveDeletedEventsAsync(UserInfo CurrentUser)
         {
             int recordCount = 0;
-            while (true) {
+            while (true)
+            {
                 var row =
                     (from r in Table.AsEnumerable()
                      where r.RowState == DataRowState.Modified
@@ -226,8 +227,13 @@ namespace B2T_Scheduler.Data
                 Log.MarkStart(logName);
                 dynamic o = new ExpandoObject();
                 o.Data_Source__c = "Scheduler";
-                if (Util.ColumnHasChanged(row, "StartDate")) o.StartDateTime = row.StartDate;
-                if (Util.ColumnHasChanged(row, "EndDate")) o.EndDateTime = row.EndDate;
+
+                if (Util.ColumnHasChanged(row, "StartDate"))
+                    o.StartDateTime = DateTime.SpecifyKind(row.StartDate, DateTimeKind.Local).ToUniversalTime();
+
+                if (Util.ColumnHasChanged(row, "EndDate"))
+                    o.EndDateTime = DateTime.SpecifyKind(row.EndDate, DateTimeKind.Local).ToUniversalTime();
+
                 //if (ColumnHasChanged(row, "Type")) o.Type = row.Type;
                 if (Util.ColumnHasChanged(row, "Subject")) o.Subject = row.Subject;
                 if (Util.ColumnHasChanged(row, "Description")) o.Description = row.Description;
@@ -326,7 +332,7 @@ namespace B2T_Scheduler.Data
             row.ClassType = "Event";
             row.AccountID = rec.AccountId;
             row.EmployeeID = employeeId;
-            row.AppointmentCategoryID = FromJValue.ToAppointmentCategoryID(rec.schEventType__c,"NOTE");
+            row.AppointmentCategoryID = FromJValue.ToAppointmentCategoryID(rec.schEventType__c, "NOTE");
             row.StartDate = rec.StartDateTime;
             row.EndDate = rec.EndDateTime;
             row.Subject = rec.Subject;

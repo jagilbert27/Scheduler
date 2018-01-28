@@ -125,15 +125,15 @@ namespace B2T_Scheduler.Data
             Task.WaitAll(tasks.ToArray());
             Log.MarkStop("Waiting for Data");
 
+            //Find the "Current User"
+            GetUserInfo();
+
             Log.MarkStart("collating");
             {
                 //Fill in DisplayOrder in appointments
                 foreach (ScheduleDataSet.AppointmentsRow row in DataSet.Appointments)
                     if (row.EmployeeListRow != null)
                         row.DisplayOrder = row.EmployeeListRow.DisplayOrder;
-
-                //Find the "Current User"
-                GetUserInfo();
 
                 foreach (DataTable table in DataSet.Tables)
                     table.EndLoadData();
@@ -145,7 +145,7 @@ namespace B2T_Scheduler.Data
             Log.Write();
         }
 
-        public int ReloadData()
+        public int ReloadData(DateTime startDate, DateTime endDate)
         {
             Log = new QueryHistory();
             Log.MarkStart("ReloadData");
@@ -155,7 +155,7 @@ namespace B2T_Scheduler.Data
             {
                 try
                 {
-                    var count = ReloadDataInternal();
+                    var count = ReloadDataInternal(startDate, endDate);
                     Log.MarkStop("ReloadData");
                     return count;
                 }
@@ -181,12 +181,14 @@ namespace B2T_Scheduler.Data
         //ToDo: Replace this with GetUserInfoAsync()
         private void GetUserInfo()
         {
+            Log.MarkQueryStart("GetUserInfo");
             var Emp = DataSet.EmployeeList.FindByEmployeeID("00561000001XaXIAA0");
             CurrentUser = new UserInfo
             {
                 DisplayName = "Administrator",
                 Id = Emp.EmployeeID,
             };
+            Log.MarkQueryComplete("GetUserInfo");
         }
 
         private async Task<int> GetUserInfoAsync()
@@ -209,15 +211,72 @@ namespace B2T_Scheduler.Data
             return CurrentUser != null ? 1 : 0;
         }
 
-        private int ReloadDataInternal()
+        private int ReloadDataInternal(DateTime startDate, DateTime endDate)
         {
             int newRecords = 0;
-            return newRecords;
 
-            //Log.MarkStart("Refresh");
-            //Log.MarkStart("Connect");
-            //Force.Connect();
-            //Log.MarkStop("Connect");
+
+            Log = new QueryHistory()
+            {
+                IsTimingEnabled = true,
+                IsVerbose = true,
+                ProgressCallback = _ProgressCallback
+            };
+
+            Log.MarkStart("Load Data");
+
+            foreach (DataTable table in DataSet.Tables)
+                table.BeginLoadData();
+
+            Log.MarkStart("Connect");
+            Force.Connect();
+            Log.MarkStop("Connect");
+
+
+            Log.MarkStart("Send Queries");
+            var tasks = new List<Task<int>> {
+                FormatCategoriesDAO.GetAsync(),
+                FormatsDAO.GetAsync(),
+                AppointmentCategoriesDAO.GetAsync(),
+                ClassLocationsDAO.GetAsync(),
+                EmployeesDAO.GetAsync(),
+                SchedulePatternsDAO.GetAsync(),
+                //PreferenceTypesDAO.GetAsync(),
+                //AccountsDAO.GetAsync(),
+                //HolidaysDAO.GetAsync(),
+                //CoursesDAO.GetAsync(),
+                //EmployeeScheduleFactorsDAO.GetAsync(),
+                //EmployeeCourseQualificationsDAO.GetAsync(),
+                //AppointmentsDAO.GetClassesAsync(startDate, endDate),
+                //AppointmentsDAO.GetEventsAsync(startDate, endDate),
+            };
+            Log.MarkStop("Send Queries");
+
+            Log.MarkStart("Waiting for Data");
+            Task.WaitAll(tasks.ToArray());
+            Log.MarkStop("Waiting for Data");
+
+            //Find the "Current User"
+            GetUserInfo();
+
+            Log.MarkStart("collating");
+            {
+                //Fill in DisplayOrder in appointments
+                foreach (ScheduleDataSet.AppointmentsRow row in DataSet.Appointments)
+                    if (row.EmployeeListRow != null)
+                        row.DisplayOrder = row.EmployeeListRow.DisplayOrder;
+
+                foreach (DataTable table in DataSet.Tables)
+                    table.EndLoadData();
+
+                DataSet.AcceptChanges();
+            }
+            Log.MarkStop("collating");
+
+            Log.Write();
+
+
+            //return newRecords;
 
 
 
@@ -252,7 +311,7 @@ namespace B2T_Scheduler.Data
             //Log.MarkStop("First Pass");
             //Log.MarkStop("Refresh");
             //Log.Write();
-            //return newRecords;
+            return newRecords;
         }
 
         public async Task<int> SaveData()
