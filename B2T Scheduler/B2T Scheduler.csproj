@@ -107,12 +107,24 @@
   <ItemGroup>
     <Reference Include="Janus.Data.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Janus Systems\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Data.v4.dll</HintPath>
+      <HintPath>Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Data.v4.dll</HintPath>
     </Reference>
-    <Reference Include="Janus.Windows.Common.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
-    <Reference Include="Janus.Windows.GridEX.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
-    <Reference Include="Janus.Windows.TimeLine.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
-    <Reference Include="Janus.Windows.UI.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.Common.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.Common.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.GridEX.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.TimeLine.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.TimeLine.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.UI.v4.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
