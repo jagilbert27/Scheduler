@@ -1918,7 +1918,7 @@ namespace B2T_Scheduler
             this.tre_Filters.Location = new System.Drawing.Point(6, 16);
             this.tre_Filters.Name = "tre_Filters";
             this.tre_Filters.SelectedImageIndex = 0;
-            this.tre_Filters.Size = new System.Drawing.Size(221, 1);
+            this.tre_Filters.Size = new System.Drawing.Size(221, 2);
             this.tre_Filters.TabIndex = 4;
             this.tre_Filters.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.tre_Filters_AfterCheck);
             // 
@@ -2367,7 +2367,7 @@ namespace B2T_Scheduler
             treeNode68,
             treeNode76,
             treeNode79});
-            this.tre_DisplayOptions.Size = new System.Drawing.Size(227, 1);
+            this.tre_DisplayOptions.Size = new System.Drawing.Size(227, 2);
             this.tre_DisplayOptions.TabIndex = 17;
             this.tre_DisplayOptions.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.tre_DisplayOptions_AfterCheck);
             // 

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE HelpAttributes>
-<HelpAttributes DTDVersion="1.0">
-   <AttName Name="Product" Display="Yes" UIString="Product" AttType="Enum">
-      <AttVal Name="Janus.FIlterEditor.v4" Display="Yes" UIString="Janus FilterEditor Control v4 for .NET" />	
-   </AttName>
-</HelpAttributes>
-

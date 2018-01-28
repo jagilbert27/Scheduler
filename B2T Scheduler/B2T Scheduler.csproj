@@ -28,7 +28,7 @@
     <NoWin32Manifest>true</NoWin32Manifest>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
-    <PublishUrl>sftp://23.253.67.240:22/../var/www/vhosts/b2ttraining.com/public_html/scheduler/alpha/</PublishUrl>
+    <PublishUrl>B:\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -38,12 +38,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://old.b2ttraining.com/scheduler/alpha/</InstallUrl>
+    <InstallUrl>https://s3.us-east-2.amazonaws.com/b2t-scheduler/</InstallUrl>
     <ProductName>Scheduler</ProductName>
     <PublisherName>B2T Training</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.html</WebPage>
-    <ApplicationRevision>15</ApplicationRevision>
+    <ApplicationRevision>16</ApplicationRevision>
     <ApplicationVersion>1.5.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -107,23 +107,23 @@
   <ItemGroup>
     <Reference Include="Janus.Data.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Data.v4.dll</HintPath>
+      <HintPath>Janus\Bin\Janus.Data.v4.dll</HintPath>
     </Reference>
     <Reference Include="Janus.Windows.Common.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.Common.v4.dll</HintPath>
+      <HintPath>Janus\Bin\Janus.Windows.Common.v4.dll</HintPath>
     </Reference>
     <Reference Include="Janus.Windows.GridEX.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.GridEX.v4.dll</HintPath>
+      <HintPath>Janus\Bin\Janus.Windows.GridEX.v4.dll</HintPath>
     </Reference>
     <Reference Include="Janus.Windows.TimeLine.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.TimeLine.v4.dll</HintPath>
+      <HintPath>Janus\Bin\Janus.Windows.TimeLine.v4.dll</HintPath>
     </Reference>
     <Reference Include="Janus.Windows.UI.v4, Version=4.0.14.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.UI.v4.dll</HintPath>
+      <HintPath>Janus\Bin\Janus.Windows.UI.v4.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -265,80 +265,6 @@
     </Compile>
     <None Include="app.config" />
     <None Include="Documents\DevelopmentNotes.doc" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\End User Agreement.rtf" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\chm\Janus.ButtonBar.v4.chm" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\chm\Janus.CalendarCombo.v4.chm" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\chm\Janus.ExplorerBar.v4.chm" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\chm\Janus.FilterEditor.v4.chm" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\chm\Janus.GridEX.v4.chm" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\chm\Janus.Schedule.v4.chm" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\chm\Janus.Timeline.v4.chm" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\chm\Janus.UI.v4.chm" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_FilterEditor v4 for .NET.HxC" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_FilterEditor v4 for .NET.hxt" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_FilterEditor v4 for .NET_A.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_FilterEditor v4 for .NET_D.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_FilterEditor v4 for .NET_F.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_FilterEditor v4 for .NET_K.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_FilterEditor v4 for .NET_N.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus ButtonBar Control v4 for .NET.HxC" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus ButtonBar Control v4 for .NET.hxt" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus ButtonBar Control v4 for .NET_F.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus ButtonBar Control v4 for .NET_K.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus ButtonBar Control v4 for .NET_N.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus CalendarCombo Control v4 for .NET.HxC" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus CalendarCombo Control v4 for .NET.hxt" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus CalendarCombo Control v4 for .NET_F.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus CalendarCombo Control v4 for .NET_K.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus CalendarCombo Control v4 for .NET_N.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus ExplorerBar Control v4 for .NET.HxC" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus ExplorerBar Control v4 for .NET.hxt" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus ExplorerBar Control v4 for .NET_F.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus ExplorerBar Control v4 for .NET_K.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus ExplorerBar Control v4 for .NET_N.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus FilterEditor v4 for .NET.HxA" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Gridex Control v4 for .NET.HxA" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Gridex Control v4 for .NET.HxC" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Gridex Control v4 for .NET.hxt" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Gridex Control v4 for .NET_F.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Gridex Control v4 for .NET_K.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Gridex Control v4 for .NET_N.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Schedule Control v4 for .NET.HxC" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Schedule Control v4 for .NET.hxt" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Schedule Control v4 for .NET_F.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Schedule Control v4 for .NET_K.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Schedule Control v4 for .NET_N.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Systems Components v4.HxA" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Systems Components v4.HxC" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Systems Components v4.hxt" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Systems Components v4_A.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Systems Components v4_F.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Systems Components v4_K.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus Systems Components v4_N.HxK" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus TimeLine Control v4 for .NET.HxC" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus TimeLine Control v4 for .NET.hxt" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus TimeLine Control v4 for .NET_F.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus TimeLine Control v4 for .NET_K.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus TimeLine Control v4 for .NET_N.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus UI Controls v4 for .NET.HxA" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus UI Controls v4 for .NET.HxC" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus UI Controls v4 for .NET.hxt" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus UI Controls v4 for .NET_F.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus UI Controls v4 for .NET_K.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\COL_Janus UI Controls v4 for .NET_N.hxk" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\Janus.ButtonBar.v4.hxs" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\Janus.CalendarCombo.v4.hxs" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\Janus.ExplorerBar.v4.hxs" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\Janus.FilterEditor.v4.hxs" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\Janus.GridEX.v4.hxs" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\Janus.Schedule.v4.hxs" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\Janus.Timeline.v4.hxs" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\Janus.UI.v4.hxs" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\RegHelpJanusWinFormsv4.bat" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\UnRegHelpJanusWinFormsv4.bat" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\IMPORTANT_INFORMATION_FOR_UPGRADING_TO_VERSION4.rtf" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Installer\JanusHelpInstaller.InstallState" />
-    <None Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Installer\JSSA4Install.InstallState" />
     <None Include="packages.config" />
     <None Include="ScheduleDataSet.xsc">
       <DependentUpon>ScheduleDataSet.xsd</DependentUpon>
@@ -430,43 +356,15 @@
     <None Include="images\SchedulerImage.png" />
     <BaseApplicationManifest Include="Properties\app.manifest" />
     <None Include="images\Splash.png" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Banner.bmp" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Design\Janus.Windows.ButtonBar.Design.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Design\Janus.Windows.CalendarCombo.Design.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Design\Janus.Windows.Common.Design.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Design\Janus.Windows.ExplorerBar.Design.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Design\Janus.Windows.FilterEditor.Design.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Design\Janus.Windows.GridEX.Design.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Design\Janus.Windows.Ribbon.Design.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Design\Janus.Windows.Schedule.Design.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Design\Janus.Windows.TimeLine.Design.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Design\Janus.Windows.UI.Design.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Data.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.ButtonBar.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.ButtonBar.v4.xml" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.CalendarCombo.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.CalendarCombo.v4.xml" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.Common.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.Common.v4.xml" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.ExplorerBar.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.ExplorerBar.v4.xml" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.FilterEditor.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.FilterEditor.v4.xml" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.GridEX.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.GridEX.v4.xml" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.Ribbon.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.Ribbon.v4.xml" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.Schedule.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.Schedule.v4.xml" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.TimeLine.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.TimeLine.v4.xml" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.UI.v4.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Bin\v4.0.14\Janus.Windows.UI.v4.xml" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Help\InnovaHxReg.exe" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Installer\HelpLinkCreator.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\Installer\JanusHelpInstaller.dll" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\UITestExtension Setup\JanusUITestExtensionSetup.exe" />
-    <Content Include="Janus\Controls for Microsoft .NET\Windows Forms Controls v4\UITestExtension Setup\README.txt" />
+    <Content Include="Janus\bin\Janus.Data.v4.dll" />
+    <Content Include="Janus\bin\Janus.Windows.Common.v4.dll" />
+    <Content Include="Janus\bin\Janus.Windows.Common.v4.xml" />
+    <Content Include="Janus\bin\Janus.Windows.GridEX.v4.dll" />
+    <Content Include="Janus\bin\Janus.Windows.GridEX.v4.xml" />
+    <Content Include="Janus\bin\Janus.Windows.TimeLine.v4.dll" />
+    <Content Include="Janus\bin\Janus.Windows.TimeLine.v4.xml" />
+    <Content Include="Janus\bin\Janus.Windows.UI.v4.dll" />
+    <Content Include="Janus\bin\Janus.Windows.UI.v4.xml" />
     <Content Include="Templates\CalendarTemplate.xls">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -531,56 +429,6 @@
   </ItemGroup>
   <ItemGroup>
     <PublishFile Include="DiffieHellman">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="Janus.Data.v4">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="Janus.Windows.Common.v4">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="Janus.Windows.GridEX.v4">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="Janus.Windows.TimeLine.v4">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="Janus.Windows.UI.v4">
       <Visible>False</Visible>
       <Group>
       </Group>
