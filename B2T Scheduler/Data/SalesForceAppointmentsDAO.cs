@@ -99,9 +99,9 @@ namespace B2T_Scheduler.Data
         {
             var logName = Table.TableName + " (Events)";
             Log.MarkQueryStart(logName);
-
+            
             var soql = Soql.Pack($@"  
-                SELECT  Id, OwnerId, AccountId, Type, schEventType__c, EventSubtype, Subject, Description, Location,
+                SELECT  Id, OwnerId, AccountId, schEventType__c, EventSubtype, Subject, Description, Location,
                         WhoId, Who.Name, lastModifiedBy.EmployeeNumber,
                         (SELECT RelationId, Status, IsInvitee, Relation.Name, Relation.Type FROM EventRelations),
                         StartDateTime, EndDateTime, LastModifiedById, LastModifiedDate
